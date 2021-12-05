@@ -45,7 +45,7 @@ if(confirmPassword.value !== password.value)
 document.getElementById('form1').style.display='none';
 document.getElementById('showData').style.display='block';
 document.getElementById('result').style.display='block';
-const allData =`Your name is ${firstName.value + lastName.value}  <br>
+const allData =`Your full name is ${firstName.value + lastName.value}  <br>
 Your email address is ${email.value}`
 document.getElementById('showData').innerHTML=allData;
  }
