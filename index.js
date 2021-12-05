@@ -6,7 +6,7 @@ const lastName = document.getElementById('lastName')
 const email = document.getElementById('email')
 const password = document.getElementById('password')
 const confirmPassword = document.getElementById('confirmPassword')
-const ipAddress= document.ipAddress;
+//const ipAddress= document.ipAddress;
 var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
 
@@ -46,7 +46,6 @@ document.getElementById('form1').style.display='none';
 document.getElementById('showData').style.display='block';
 document.getElementById('result').style.display='block';
 const allData =`Your name is ${firstName.value + lastName.value}  <br>
-Your email address is ${email.value} <br> 
-Your IP address is ${ipAddress}`
+Your email address is ${email.value}`
 document.getElementById('showData').innerHTML=allData;
  }
